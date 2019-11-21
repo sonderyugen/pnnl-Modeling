@@ -1,0 +1,19 @@
+Package: pnnlMEND
+Type: Package
+Title: Soil Organic Carbon Model based on MEND by Want et al. 2015
+Version: 0.1.0
+Author: Taylor Hietpas
+Maintainer: Jianqiu Zheng <jianqiu.zheng@pnnl.gov>
+Description: Can be used to process data for parameterization of values for the model with appropriate parameter-specific data sets. The model can solve for average, maximum, and minimunm plot ranges based on optimization or approximation. The parameterized model can also be calibrated to a given time-series data set, via objective function minimization, with appropriate Soil Organic Carbon pool data points.
+License: Open Source Common License
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    weathermetrics,
+    readxl,
+    purrr,
+    deSolve,
+    rootSolve,
+    optimx,
+    ggplot2
+RoxygenNote: 6.1.1
